@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FancyTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FancyTimerTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-FancyTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FancyTimer.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2F7A5DCE2BC2D25AD273546E /* libPods-FancyTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87D86DCC5E31C9705794D3A /* libPods-FancyTimer.a */; };
 		505584422B63E33800A94BE3 /* TimerWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A282FA2B4ADBC9004E633F /* TimerWidgetLiveActivity.swift */; };
 		5079A0592B6911D300DD375D /* TimerWidgetLiveActivityIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5079A0582B6911D300DD375D /* TimerWidgetLiveActivityIntent.swift */; };
 		5079A05D2B69226400DD375D /* IntentPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5079A05C2B69226400DD375D /* IntentPlaceholder.swift */; };
@@ -26,7 +26,7 @@
 		50D5B13B2B4EC25400325616 /* TimerWidgetModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5B13A2B4EC25400325616 /* TimerWidgetModule.swift */; };
 		50D5B13C2B4EC25400325616 /* TimerWidgetModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5B13A2B4EC25400325616 /* TimerWidgetModule.swift */; };
 		50D5B13E2B4EF18D00325616 /* TImerWidgetBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5B13D2B4EF18D00325616 /* TImerWidgetBridge.m */; };
-		7699B88040F8A987B510C191 /* libPods-FancyTimer-FancyTimerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FancyTimer-FancyTimerTests.a */; };
+		7669FD8347FDDB28FA63F1FB /* libPods-FancyTimer-FancyTimerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949695A3AC5CEACD62507D3 /* libPods-FancyTimer-FancyTimerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -65,14 +65,13 @@
 		00E356EE1AD99517003FC87E /* FancyTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FancyTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyTimerTests.m; sourceTree = "<group>"; };
+		0949695A3AC5CEACD62507D3 /* libPods-FancyTimer-FancyTimerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FancyTimer-FancyTimerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* FancyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FancyTimer/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FancyTimer/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FancyTimer/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FancyTimer/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FancyTimer/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FancyTimer-FancyTimerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FancyTimer-FancyTimerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-FancyTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer.debug.xcconfig"; path = "Target Support Files/Pods-FancyTimer/Pods-FancyTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		5079A0582B6911D300DD375D /* TimerWidgetLiveActivityIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerWidgetLiveActivityIntent.swift; sourceTree = "<group>"; };
 		5079A05C2B69226400DD375D /* IntentPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentPlaceholder.swift; sourceTree = "<group>"; };
 		5079A05E2B69514F00DD375D /* TimerEventEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerEventEmitter.m; sourceTree = "<group>"; };
@@ -106,11 +105,12 @@
 		50D5B1392B4EC25300325616 /* FancyTimer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FancyTimer-Bridging-Header.h"; sourceTree = "<group>"; };
 		50D5B13A2B4EC25400325616 /* TimerWidgetModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerWidgetModule.swift; sourceTree = "<group>"; };
 		50D5B13D2B4EF18D00325616 /* TImerWidgetBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TImerWidgetBridge.m; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-FancyTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer.release.xcconfig"; path = "Target Support Files/Pods-FancyTimer/Pods-FancyTimer.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-FancyTimer-FancyTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer-FancyTimerTests.debug.xcconfig"; path = "Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-FancyTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FancyTimer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6705BFB35F1A43A198D723CD /* Pods-FancyTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer.release.xcconfig"; path = "Target Support Files/Pods-FancyTimer/Pods-FancyTimer.release.xcconfig"; sourceTree = "<group>"; };
+		6DD34E084A1912E84A33C227 /* Pods-FancyTimer-FancyTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer-FancyTimerTests.release.xcconfig"; path = "Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FancyTimer/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-FancyTimer-FancyTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer-FancyTimerTests.release.xcconfig"; path = "Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B32A56F52F7273FAED0D336 /* Pods-FancyTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer.debug.xcconfig"; path = "Target Support Files/Pods-FancyTimer/Pods-FancyTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		C87D86DCC5E31C9705794D3A /* libPods-FancyTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FancyTimer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28D41A4297B586B84EE4A29 /* Pods-FancyTimer-FancyTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyTimer-FancyTimerTests.debug.xcconfig"; path = "Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-FancyTimer-FancyTimerTests.a in Frameworks */,
+				7669FD8347FDDB28FA63F1FB /* libPods-FancyTimer-FancyTimerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-FancyTimer.a in Frameworks */,
+				2F7A5DCE2BC2D25AD273546E /* libPods-FancyTimer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,10 +178,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-FancyTimer.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FancyTimer-FancyTimerTests.a */,
 				50A282DB2B4ACE3D004E633F /* WidgetKit.framework */,
 				50A282DD2B4ACE3D004E633F /* SwiftUI.framework */,
+				C87D86DCC5E31C9705794D3A /* libPods-FancyTimer.a */,
+				0949695A3AC5CEACD62507D3 /* libPods-FancyTimer-FancyTimerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,10 +267,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-FancyTimer.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-FancyTimer.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-FancyTimer-FancyTimerTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-FancyTimer-FancyTimerTests.release.xcconfig */,
+				8B32A56F52F7273FAED0D336 /* Pods-FancyTimer.debug.xcconfig */,
+				6705BFB35F1A43A198D723CD /* Pods-FancyTimer.release.xcconfig */,
+				D28D41A4297B586B84EE4A29 /* Pods-FancyTimer-FancyTimerTests.debug.xcconfig */,
+				6DD34E084A1912E84A33C227 /* Pods-FancyTimer-FancyTimerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -282,12 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FancyTimerTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				90534B94B5B70AD64293E054 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				6BEEEDF747D6284F6F4FB473 /* [CP] Embed Pods Frameworks */,
+				84056C5658A599BCB7B275DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,14 +303,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FancyTimer" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				D15DEC165CFB326F06A40E06 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 				50A282EC2B4ACE3F004E633F /* Embed Foundation Extensions */,
+				8AF696E058A58F949673717D /* [CP] Embed Pods Frameworks */,
+				E6AE16CB5DFF39F8F8F99D3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -361,7 +361,7 @@
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FancyTimer" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -424,7 +424,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		6BEEEDF747D6284F6F4FB473 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84056C5658A599BCB7B275DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF696E058A58F949673717D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,7 +475,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyTimer/Pods-FancyTimer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		90534B94B5B70AD64293E054 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -463,7 +497,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		D15DEC165CFB326F06A40E06 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,24 +519,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		E6AE16CB5DFF39F8F8F99D3D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,23 +534,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyTimer/Pods-FancyTimer-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FancyTimer-FancyTimerTests/Pods-FancyTimer-FancyTimerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -591,7 +591,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FancyTimer-FancyTimerTests.debug.xcconfig */;
+			baseConfigurationReference = D28D41A4297B586B84EE4A29 /* Pods-FancyTimer-FancyTimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -619,7 +619,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FancyTimer-FancyTimerTests.release.xcconfig */;
+			baseConfigurationReference = 6DD34E084A1912E84A33C227 /* Pods-FancyTimer-FancyTimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -644,7 +644,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FancyTimer.debug.xcconfig */;
+			baseConfigurationReference = 8B32A56F52F7273FAED0D336 /* Pods-FancyTimer.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -673,7 +673,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FancyTimer.release.xcconfig */;
+			baseConfigurationReference = 6705BFB35F1A43A198D723CD /* Pods-FancyTimer.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -852,6 +852,8 @@
 					"$(inherited)",
 					"-Wl",
 					"-ld_classic",
+					"-lc++",
+					"-lstdc++",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -924,6 +926,8 @@
 					"$(inherited)",
 					"-Wl",
 					"-ld_classic",
+					"-lc++",
+					"-lstdc++",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
